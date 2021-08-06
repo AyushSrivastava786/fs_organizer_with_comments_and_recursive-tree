@@ -20,6 +20,9 @@ switch(inputArr[0])
     case "organize" :
         organizeObj.organizefn(inputArr[1]);
         break;
-           
+    
+    case "tree" :
+        treeObj.treefn(inputArr[1],"     ","      ");
+
 
 }
